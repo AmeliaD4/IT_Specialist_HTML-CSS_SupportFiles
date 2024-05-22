@@ -1,4 +1,16 @@
-.active{
+a:link{
+color: white;
+}
+
+a:visited{
+color: #F2F2F2;
+}
+
+a:hover{
+  background-color: #B3DFB6
+}
+
+a:active{
   background-color: #9DE356;
 }
 ul{
