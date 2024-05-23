@@ -38,6 +38,7 @@ li a:active{
 li:last-child{
   border-right:none;
 }
+
 .dropDown{
   position: relative;
   display: inline-block;
@@ -47,16 +48,11 @@ li:last-child{
 .dropDown-content{
   display: none;
   position: absolute;
+  background-color: #f9f9f9
   min-width: 100px;
   z-index:1;
 } 
 
-.dropdown-content a {
-  color: black;
-  padding: 10px 12px;
-  text-decoration: none;
-  display: block;
-}
 
 .dropDown:hover .dropDown-content{
   display: block;
