@@ -5,7 +5,6 @@ ul{
   padding: 0;
   overflow:hidden;
   background-color: #111;
-  float: left;
 }
 li {
   display: block;
