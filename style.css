@@ -47,10 +47,17 @@ li:last-child{
 .dropDown-content{
   display: none;
   position: absolute;
-  background-color: #111;
   min-width: 100px;
   z-index:1;
+} 
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
+
 .dropDown:hover .dropDown-content{
   display: block;
 }
