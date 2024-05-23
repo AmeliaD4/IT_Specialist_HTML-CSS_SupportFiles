@@ -3,6 +3,7 @@ ul{
   list-style-type:none;
   margin: 0;
   padding: 0;
+    overflow:hidden;
   background-color: #111;
 }
 li {
@@ -46,6 +47,8 @@ li:last-child{
 .dropDown-content{
   display: none;
   position: absolute;
+  background-color: #111;
+  min-width: 100px;
   z-index:1;
 }
 .dropDown:hover .dropDown-content{
