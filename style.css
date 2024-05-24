@@ -10,6 +10,7 @@ li {
   display: block;
   float: left;
   border-right: 1px solid #E2E2E2;
+   background-color: #111
 }
 
 li a {
